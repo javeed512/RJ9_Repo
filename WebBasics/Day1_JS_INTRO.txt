@@ -1,0 +1,69 @@
+HTML + CSS
+JS Basics
+Advance JS / ECMA Script
+
+Softwares:
+----------
+Nodejs -->  client side server
+npm --> Node Package Manager
+
+VSCode Editor
+Broswer
+
+
+int x = 100;
+
+  x = true;
+
+var x = 100; // number
+
+   x= "javeed"; // string
+
+   x = true ; // boolean
+
+
+ x = new Object(); // Object Type
+
+x = new String("Tom"); // String Type Obj
+
+
+Object class
+String class
+Array class
+Number class
+
+
+Object object
+String object
+Array object
+
+Adv OOJs / ECMA Script
+
+OOPs
+
+
+=======================
+How to access Elements 
+1. Tag name
+2. Name attribute
+3. Id attribute (recommend)
+4. class/className attribute
+
+
+
+Types of functions/ function expressions in JS:
+---------------------------
+1. Normal functions
+2. Annonymous functions
+3. Arrow functions
+4. callback functions
+
+
+
+
+
+
+
+
+
+
