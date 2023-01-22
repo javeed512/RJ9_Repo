@@ -1,0 +1,11 @@
+Http Methods:
+-------------
+GET --> Fetch/Retriev data from servers
+POST ---> Insert/Create new record into the server
+PUT -->  Update existing record into the server
+DELETE --> Delete data/record from server
+
+CRUD Operations.
+
+REST APIs:
+------------
