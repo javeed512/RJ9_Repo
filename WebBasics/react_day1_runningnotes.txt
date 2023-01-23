@@ -1,0 +1,92 @@
+JS + HTML
+
+<html>
+<body>
+<br>
+
+JS+ XML =JSX
+<html>
+<body>
+<br><Javeed>
+<Button>
+
+
+
+var element = document.getElementById("root")
+
+-----------------------------------------
+
+
+Real Dom
+=========
+
+<body>
+<div id="root">
+
+<h1>Welcome</h1>
+<h1>Hello friends</h1>
+<h1>Hello boys and girls</h1>
+
+
+</div>
+</body>
+
+
+------------------------------
+
+Virtual Dom: snapshot-1
+
+
+<body>
+<div id="root">
+
+<h1>Welcome</h1>
+<h1>Hello friends</h1>
+<h1>Thank you friends</h1>
+
+
+</div>
+</body>
+
+--------------------
+
+
+Virtual Dom: snapshot-2
+
+
+<body>
+<div id="root">
+
+<h1>Welcome</h1>
+<h1>Hello friends</h1>
+<h1>Thank you friends</h1>
+
+
+</div>
+</body>
+
+
+
+
+
+
+Virtual Dom: snapshot-3
+
+
+<body>
+<div id="root">
+
+<h1>Welcome</h1>
+<h1>Hello friends</h1>
+<h1>Bye Bye</h1>
+
+
+</div>
+</body>
+
+
+
+
+
+
+
