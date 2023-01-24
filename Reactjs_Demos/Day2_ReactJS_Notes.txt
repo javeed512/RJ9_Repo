@@ -1,0 +1,112 @@
+
+HTML document --> DOM tree
+
+Javascript code to manipulate DOM
+
+EX: Old JS
+-------------
+  function addNewElement(){
+
+		const d1 = document.createElement('div');
+
+                const para = document.createElement('p');
+
+			d1.appendChild(para);
+
+                para.innerText = "Hello Friends!";
+
+                document.body.appendChild(d1);
+
+        }
+
+Ex: Babel Code
+---------------
+
+React.createElement('div',{id:'root'},
+			React.createElement('p',{name:'pname'},"Hello Friends")
+		   );
+
+	
+
+
+JSX:
+----
+
+<div id="root">
+
+	<p name="pname">Hello friends</p>
+
+</div>
+
+
+Component:
+
+1. Function Components
+2. Class Component
+
+Function Components:
+--------------------
+
+Student.js
+
+function   Student(props){
+
+	return (
+	<>
+
+		<h1>Hello World</h1>
+
+		<h1>{props.sid}</h1>
+
+
+	</>
+	);
+
+
+
+}
+
+
+App.js
+-------
+
+function   App(props){
+
+	return (
+	<>
+
+		<h1>{props.id}</h1>
+		<Student sid="101" sname="tom"></Student>
+
+
+	</>
+	);
+
+
+
+}
+
+
+
+
+index.js
+---------
+
+render(
+
+
+	<App  id="300" />
+
+);
+
+
+
+
+
+
+
+
+
+
+
+	
