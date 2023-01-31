@@ -1,5 +1,5 @@
- React Router
-================
+ React Router/ Routings
+=========================
 Routing is a process in which a user is directed to different pages based on their action or request.
 
 ReactJS Router is mainly used for developing Single Page Web Applications. 
